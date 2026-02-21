@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 18px;
+    color: #fff;
+    background-color: #000000ea;
+}
+
+input {
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border: 1px solid #52524e;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: rgb(8, 70, 54);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.todos {
+    margin: 12px 0;
+}
+
+.todoItem {
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #e4e6cf;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
